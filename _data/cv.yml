@@ -24,7 +24,13 @@
   type: time_table
   contents:
     - title: Research Intern
-      institution: Snowflake, US
+      institution: Amazon, Seattle, US
+      year: 2026.6 - 2026.8
+      description:
+        - Self-evolving agent
+
+    - title: Research Intern
+      institution: Snowflake, Menlo Park, US
       year: 2025.5 - 2025.8
       description:
         - Automatic prompt optimization
