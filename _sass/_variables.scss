@@ -11,6 +11,11 @@ $orange-color:        #F29105 !default;
 $orange-color-dark:   #ff6c0c !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
+// Site accent, keyed to the profile photo (lake/sky slate blue, hue ~211deg).
+// $ocean-color        -> light mode  (5.5:1 on white, white text on it also 5.5:1)
+// $ocean-color-light  -> dark mode   (8.0:1 on the #1C1C1D background)
+$ocean-color:         #1F6BB0 !default;
+$ocean-color-light:   #8AB6E0 !default;
 $cyan-color:          #2698BA !default;
 $light-cyan-color:    lighten($cyan-color, 25%);
 $green-color:         #00ab37 !default;

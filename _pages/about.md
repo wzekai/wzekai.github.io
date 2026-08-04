@@ -6,7 +6,7 @@ subtitle: <strong>王泽铠</strong>, Ph.D. Student at <a href='https://www.mit.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   address: 
 
