@@ -178,6 +178,55 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ArXiv</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="wang2026verse" class="col-sm-8">
+        <!-- Title --><div class="title"><a href="https://arxiv.org/pdf/2610.02616" rel="external nofollow noopener" target="_blank">VERSE: Verified Self-Evolving Optimizer for Agent Harnesses</a></div>
+<!-- Author -->
+        <div class="author">
+        
+
+        <strong><u>Zekai Wang</u></strong>, Yingqiang Ge, Zekun Wang, Hai Wang, Yuhui Xu, Joshua Frandsen, Shancong Fu, Ashia C. Wilson, and Chandan K. Reddy</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em></em> 2026
+        </div>
+        <div class="periodical">
+          
+        </div>
+<!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn z-depth-0" role="button">Abstract</a>
+            <a href="http://arxiv.org/abs/2610.02616" class="btn z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+            <a class="bibtex btn z-depth-0" role="button">Bib</a>
+            <a href="https://github.com/wzekai/VERSE" class="btn z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Harness evolution improves an LLM agent’s prompts, tools, and workflow, while the optimizer’s own tools and procedures often remain fixed. We study whether an optimizer can improve another agent more effectively by also improving how it diagnoses failures, develops edits, and tests their effects. Two observations guide our design. In a controlled study, optimizer self-evolution fails to improve performance without execution-based verification, but achieves the best result of that study when verification is available. Across five executors, self-evolving optimizers build their own tools for failure analysis, verification, training audits, and workflow control. Motivated by these findings, we introduce VERSE, a Verified Self-Evolving optimizer for agent harnesses. VERSE lets the optimizer test draft edits, replay failures, and perturb suspected steps before submission, while tracking fixes and regressions across rounds. Using this feedback, the optimizer revises both the executor harness and its own prompts, skills, tools, hooks, and notes, while the weights of the optimizer and executor models stay fixed. Under a shared protocol with disjoint training, validation, and test tasks, VERSE improves all four evaluated harness optimizers on held-out SWE-rebench tasks and newer out-of-distribution tasks in five languages. Its best validation-selected harness reaches 42.3% and 37.7% accuracy, respectively, against 39.2% and 29.3% for the strongest baselines.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">wang2026verse</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{VERSE: Verified Self-Evolving Optimizer for Agent Harnesses}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wang, Zekai and Ge, Yingqiang and Wang, Zekun and Wang, Hai and Xu, Yuhui and Frandsen, Joshua and Fu, Shancong and Wilson, Ashia C. and Reddy, Chandan K.}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">COLM’26</abbr></div>
 
         <!-- Entry bib key -->
@@ -459,7 +508,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Zekai  Wang. Last updated: August 04, 2026.
+        © Copyright 2026 Zekai  Wang. Last updated: October 06, 2026.
       </div>
     </footer>
 
